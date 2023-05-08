@@ -32,8 +32,8 @@ async function decryptPdfFile(inputFile, outputFile, privateKeyArmored, passphra
 }
 
 // Usage:
-const inputFile = 'path_to_your_encrypted_file.gpg';
-const outputFile = 'path_to_your_decrypted_pdf.pdf';
+const inputFile = 'encrypted.gpg';
+const outputFile = 'decrypted.pdf';
 const privateKey = `-----BEGIN PGP PRIVATE KEY BLOCK-----
 
 xYYEZFirdxYJKwYBBAHaRw8BAQdAk8zycxLCwPoT6OPqExTKZn7/W4lIuPXg

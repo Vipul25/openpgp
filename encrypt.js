@@ -29,8 +29,8 @@ async function encryptPdfFile(inputFile, outputFile, publicKeyArmored) {
 }
 
 // Usage:
-const inputFile = 'Q3_TDS_Receipt.pdf';
-const outputFile = 'path_to_your_encrypted_file.gpg';
+const inputFile = 'Sample.pdf';
+const outputFile = 'encrypted.gpg';
 const publicKey = `-----BEGIN PGP PUBLIC KEY BLOCK-----
 
 xjMEZFirdxYJKwYBBAHaRw8BAQdAk8zycxLCwPoT6OPqExTKZn7/W4lIuPXg
